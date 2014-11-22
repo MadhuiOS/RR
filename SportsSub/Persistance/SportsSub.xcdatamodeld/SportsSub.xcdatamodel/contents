@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Proficiency" syncable="YES">
+        <attribute name="proficiencyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proficiencyLevel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sports" syncable="YES">
+        <attribute name="sportsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportsName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserProfile" syncable="YES">
+        <attribute name="userDOB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userFacebookId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userLatitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userLongitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userThumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userTwitterId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Sports" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Proficiency" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="UserProfile" positionX="-36" positionY="9" width="128" height="223"/>
+    </elements>
+</model>
